@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+header {
+    background-color: #149CA5;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px; 
+}
+
+.logotipo {
+    padding: 1px;
+    max-height: 100px;
+}
+
+.search-bar form {
+    display: flex;
+    margin-right: 10px; 
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+}
+
+.search-bar button {
+    background-color: #FFFFFF;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.main-content {
+    display: flex;
+    flex: 1; 
+    align-items: center; 
+}
+
+.menu-item {
+    color: black;
+    font-size: larger;
+    font-style: inherit;
+}
+
+aside {
+    background-color: #FFFFFF;
+    padding: 6px;
+    width: 240px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100vh - 60px); 
+}
+
+.barralateral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barralateral img {
+    border-radius: 10%;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+main {
+    flex-grow: 1;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 4px #149CA5;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.dados-perfil {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+.dados-perfil th, .dados-perfil td, .dados-perfil label {
+    padding: 10px;
+    text-align: left;
+}
+.dados-perfil th {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #333;
+}
+.dados-perfil td.data-cell {
+    background-color: #149CA5;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 15px;
+}
+.dados-perfil td.label-cell {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #333;
+    padding: 5px 10px;
+}
+.dados-perfil td.img-cell {
+    padding: 20;
+    width: 10px;
+    height: 20px;
+    vertical-align: top;
+}
+.dados-perfil img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 20px;
+}
+
+.dados-perfil label.data-cell {
+    background-color: #149CA5;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 15px;
+}
+
+.dados-perfil input.label-cell {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #333;
+    padding: 5px 10px;
+}
+
+#linha {
+    width: 100%;
+    border-bottom: 3px solid #000000;
+}
+
+footer {
+    background-color: #064b50;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+}
+

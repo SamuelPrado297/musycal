@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    transition: 0.5s;
+}
+
+nav.rolagem {
+    background-color: #149CA5;
+}
+
+.search-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.search-btn {
+    color: #149CA5;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #000000;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+
+.search-box:hover > .search-txt {
+    width: 210px;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn {
+    background-color: #ffffff;
+}
+
+#perfil {
+    margin-left: 10px;
+}
+
+#titulo {
+    display: flex;
+    padding-top: 30px;
+    color: #149CA5;
+    justify-content: center;
+}
+
+.card {
+    margin: 10px;
+}
+
+.banner {
+    justify-content: center;
+    align-items: center;
+    padding-left: 9%;
+}
+
+.vakinha {
+    justify-content: center;
+    align-items: center;
+    padding-left: 26%;
+}
+
+footer {
+    background-color: #064b50;
+}
+
+.botao-personalizado {
+    background-color: transparent; 
+    color: white; 
+    border: 2px solid white; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    cursor: pointer; 
+}
+
+.botao-personalizado:hover {
+    background-color: white; 
+    color: black;
+}
